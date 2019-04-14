@@ -1,5 +1,6 @@
 # HW_3_hadoop
-
-# Modify book_join_ratings.hql with r.rating >7
-# and tmp_user.hql so that Age<30
-
+<<<<<<< HEAD
+changed books_ratings >6 and tmp_user Age<31
+=======
+new_query changes r.ratings>4 and age >24 in the books-join-ratings and tmp_user
+>>>>>>> new_query
