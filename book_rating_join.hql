@@ -6,10 +6,7 @@ FROM
 books b 
 JOIN
 ratings r 
-<<<<<<< HEAD
-ON (b.isbn=r.isbn) and r.rating>6
-=======
-ON (b.isbn=r.isbn) and r.rating>4
+ON (b.isbn=r.isbn) and r.rating>4 
 >>>>>>> new_query
 GROUP BY b.author 
 ORDER BY count DESC 
